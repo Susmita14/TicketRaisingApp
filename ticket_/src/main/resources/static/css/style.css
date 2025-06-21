@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+.glass{
+    width: 60%;
+    /* height: 500px; */
+    /* margin-left: auto; */
+    /* margin-top: 4%; */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px ;
+    top: 50px;
+    /* margin: auto; */
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.36);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px); 
+border: 1px solid rgba(255, 255, 255, 0.4);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+nav{
+    display: flex;
+    width: 920px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* backdrop-filter: blur(17px) saturate(166%);
+    -webkit-backdrop-filter: blur(17px) saturate(166%);
+    background-color: rgba(255, 255, 255, 0.53);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3); */
+    position: relative;
+    top: 4%;
+}
+
+nav ul{
+    flex: 1;
+    /* border: 1px solid black; */
+    text-align: right;
+    margin-left: 0;
+    position: relative;
+    right: 2%;
+    /* top: 10.5px; */
+    height: 34px;
+    width: 50%;
+}
+nav ul li{
+    /* border: 1px solid black; */
+    list-style: none;
+    display: inline-block;
+    margin-left: 12px;
+    transition: 0.4s ease-out;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+
+nav ul li a{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.titlelogo{
+    /* border: 1px solid black; */
+    color: rgb(35, 35, 210);
+    padding-left: 2px;
+    justify-content: center;
+    margin-left: 3px;
+    font-size: 25px;
+    position: relative;
+    /* top: 7px; */
+    left: 5%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* display: inline; */
+    cursor: pointer;
+    /* border-right: 5px solid; */
+    width: 32.6%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 1.5s steps(19),
+        cursor 0.4s step-end infinite alternate;
+}
+
+nav img{
+    /* border: 1px solid black; */
+    /* font-size: 22px; */
+    width: 67px;
+    height: 67px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -7px;
+    transition: 0.1s ease;
+} 
+nav img:hover{
+    /* border: 2px solid #fff; */
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
+@keyframes cursor{
+    32.6%{
+        border-color: transparent;
+    }
+}
+
+@keyframes typing{
+    from{
+        width:0
+    }
+}
+
+
+p{
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+/* h3{
+    color: #fff;
+    margin: 80px 110px -25px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+} */
+
+/* h1{
+    color: #fff;
+    margin: 0 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150px;
+    letter-spacing: 10px;
+    opacity: 0.6;
+    background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+} */
+
+/* .icons i{
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.icons ul{
+    flex: 1;
+    text-align: right;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+.icons ul li i{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+.icons ul li i:hover{
+    color: aqua;
+} */
+
+/* .logoo{
+    border: 1px solid black;
+    display: flex;
+    width: 50%;
+    position: absolute;
+    right: 65%;
+    top: 20%;
+}
+ */
