@@ -12,3 +12,7 @@ git add <file path>
 git commit -m "chore: added target/ to .gitignore"
 git push origin main -> to push the changes in the repository
 git pull origin main -> to fetch the changes from the repo.
+
+
+HTML
+Always use th:href and th:src in Thymeleaf for dynamic path resolution.
