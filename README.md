@@ -117,9 +117,9 @@ ticket_/
 
 ## 👥 Team Members
 
-* 👩‍💻 [Susmita](https://github.com/Susmita14)
+* 👩‍💻 [Susmita Tupurwadkar](https://github.com/Susmita14)
 * 👨‍💻 Pranav Shinde
-* 👩‍💻 Aditi Sudhir Ghate ([adiana3308](https://github.com/adiana3308))
+* 👩‍💻 [Aditi  Ghate](https://github.com/Adiana3308)
 
 ---
 
