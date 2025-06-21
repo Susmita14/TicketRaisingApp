@@ -123,10 +123,10 @@ ticket_/
 
 ---
 
-## 📌 License
+<!-- ## 📌 License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
+--- -->
 
 > Made with ❤️ by the TicketRaisingApp Team
