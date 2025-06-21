@@ -1,0 +1,2 @@
+mvn spring-boot:run  -> to start the spring server
+mysql -u root -p -> to start the mysql server in the terminal
