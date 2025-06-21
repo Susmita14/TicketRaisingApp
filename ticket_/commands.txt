@@ -1,8 +1,14 @@
-mvn spring-boot:run  -> to start the spring server
+To start the Spring server
+mvn  clean spring-boot:run  -> to start the spring server
+
+MySQL commands
 mysql -u root -p -> to start the mysql server in the terminal
 
-Git commands
-echo "/target/" >> .gitignore
+Git commands to push on the repository, while making commits
 git add .gitignore
+
+git status
+git add <file path>
 git commit -m "chore: added target/ to .gitignore"
-git push origin main
+git push origin main -> to push the changes in the repository
+git pull origin main -> to fetch the changes from the repo.
