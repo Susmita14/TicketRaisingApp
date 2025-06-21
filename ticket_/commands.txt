@@ -1,2 +1,8 @@
 mvn spring-boot:run  -> to start the spring server
 mysql -u root -p -> to start the mysql server in the terminal
+
+Git commands
+echo "/target/" >> .gitignore
+git add .gitignore
+git commit -m "chore: added target/ to .gitignore"
+git push origin main
