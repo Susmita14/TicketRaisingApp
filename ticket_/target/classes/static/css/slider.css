@@ -1,0 +1,13 @@
+.carousal-slide{
+    border: 1px solid black;
+    display: flex;
+    width: 50%;
+    height: 500px;
+}
+
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
