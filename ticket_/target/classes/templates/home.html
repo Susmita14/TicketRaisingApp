@@ -1,8 +1,38 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<head><title>Home</title></head>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- ✅ Style CSS -->
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <link rel="stylesheet" th:href="@{/css/slider.css}" />
+
+    <!-- ✅ FontAwesome icons CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+</head>
 <body>
-    <h1>Welcome to the Ticket App!</h1>
-    <p><a th:href="@{/logout}">Logout</a></p>
+    <div>
+        <nav>
+            <!-- ✅ Logo image (optional) -->
+            <!-- <img th:src="@{/logo/logo_transparent.png}" alt="Logo" /> -->
+            <p class="titlelogo">Ticket Raising App</p>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">REQUESTS</a></li>
+                <li><a href="#">HELP</a></li>
+                <li><a th:href="@{/login}">LOGOUT</a></li>
+            </ul>
+        </nav>
+
+        <div class="glass">
+            <!-- background blur or content area -->
+             <p>
+                <h5>Welcome to the Ticket Raising App 🎟️</h5>
+             </p>
+        </div>
+    </div>
 </body>
 </html>
