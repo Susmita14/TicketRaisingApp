@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.repository.CrudRepository;
 
-
+ 
 /*
 🧠 Why use interface and not class?
 Spring Boot automatically generates the implementation for interfaces like JpaRepository, which provides powerful built-in methods like:
